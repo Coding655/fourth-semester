@@ -4,7 +4,7 @@ document.getElementById('btn-clicked').addEventListener('click', function(){
     const passField = document.getElementById('inputPass');
     const pass = passField.value;
     if(email === 'imransirajee@gmail.com' && pass === 'password'){
-        window.location.href='index.html'
+        window.location.href='main-page.html'
     }
     else{
         alert('WRONG PASSWORD');
